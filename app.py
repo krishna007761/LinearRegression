@@ -28,5 +28,5 @@ if st.button("Sales Prediction"):
     result= clf.predict(np.array([[TV,Radio,NewsPaper]]))
     st.text(result[0])
     
-st.markdown("Developed  at NIELIT Daman")
+st.markdown("Developed  by Krushna Saindane")
                   
